@@ -1,0 +1,14 @@
+<div>Hello world</div>
+<div *blockUI="'btn-list'" style="height:250px;width:220px;">
+</div>
+
+<div style="width:100%;text-align:center;">
+    <div class="button-row">
+      <button mat-raised-button [routerLink]="['/example']">Buttons & Indicators</button>
+      <button mat-raised-button color="primary" [routerLink]="['/example/demo-form-control']">Form Controls</button>
+      <button mat-raised-button color="accent" [routerLink]="['/example/demo-navigation']">Navigation</button>
+      <button mat-raised-button color="warn" [routerLink]="['/example/demo-layout']">Layout</button>
+      <button mat-raised-button disabled [routerLink]="['/example/demo-popups-modals']">Popups Modals</button>
+      <a mat-raised-button routerLink="." [routerLink]="['/example/demo-data-table']">Data Table</a>
+    </div>
+  </div>
